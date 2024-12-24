@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_text_you">#FFEDAE0A</color>
+    <color name="color_text_for">#FFAA3623</color>
+    <color name="color_title_recipe">#FF333333</color>
+    <color name="color_hint_text">#FFA0A3BD</color>
+    <color name="color_background">#FFF0F3ED</color>
+</resources>
