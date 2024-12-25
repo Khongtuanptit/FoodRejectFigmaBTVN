@@ -7,4 +7,5 @@
     <color name="color_title_recipe">#FF333333</color>
     <color name="color_hint_text">#FFA0A3BD</color>
     <color name="color_background">#FFF0F3ED</color>
+    <color name="color_item_congthuc">#FFF0FCF3</color>
 </resources>

@@ -1,5 +1,6 @@
 package com.eagletech.foodrejectfigmabtvn.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -122,6 +123,10 @@ class DetailCategoryActivity : AppCompatActivity() {
         )
 
         detailFoodItemAdapter = DetailFoodItemAdapter(fullFoodList, { detailFoodItem ->
+            // xử lý khi click vào từng item
+            val intent = Intent(this, DetailActivity::class.java)
+            intent.putExtra("detailFoodItem", detailFoodItem)
+            startActivity(intent)
             Toast.makeText(this, "${detailFoodItem.title}", Toast.LENGTH_SHORT).show()
         }, { detailFoodItem ->
             Toast.makeText(

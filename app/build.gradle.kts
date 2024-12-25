@@ -48,4 +48,6 @@ dependencies {
 
     // GLide
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    // thư viện indicator
+    implementation("me.relex:circleindicator:2.1.6")
 }
